@@ -3,7 +3,6 @@
 
 #include <unistd.h>
 #include <sys/mount.h>
-#include <sys/disk.h>
 #include <sys/types.h>
 #include <fcntl.h>
 using namespace std;
