@@ -180,7 +180,7 @@ int main(int argc, char* argv[])
   if(!yes) {
     string ans;
     cout << "are you sure about flipping dirty bit" << endl
-      << "NOT RESPONSIBLE FOR DATA LOSE!!! [y/n]" << endl;
+      << "NOT RESPONSIBLE FOR DATA LOSS!!! [y/n]" << endl;
     cin >> ans;
     if(ans != "y" && ans != "Y") {
       cout << "nothing happened" << endl;
