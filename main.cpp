@@ -135,6 +135,7 @@ int main(int argc, char* argv[])
     {
     case 'y':
       yes++;
+      break;
     case 'h':
     default:
       usage();
